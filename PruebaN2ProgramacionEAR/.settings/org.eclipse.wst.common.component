@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="PruebaN2ProgramacionEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="PruebaN2ProgramacionWeb.war" deploy-path="/" handle="module:/resource/PruebaN2ProgramacionWeb/PruebaN2ProgramacionWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PruebaN2ProgramacionModel.jar" deploy-path="/" handle="module:/resource/PruebaN2ProgramacionModel/PruebaN2ProgramacionModel">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
